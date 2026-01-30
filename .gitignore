@@ -2,7 +2,7 @@
 *.exe
 *.out
 *.o
-
+*.docx
 # Windows system files
 desktop.ini
 Thumbs.db
