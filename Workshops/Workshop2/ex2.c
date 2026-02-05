@@ -8,7 +8,7 @@ int main() {
 	while(count <5) {
 		printf("Nhap vao n: ");
 		while(scanf("%f",&n) !=1|| n<=0 || n>1000) {
-			printf("Nhap lai n: \n");
+			printf("Nhap lai n: ");
 			fflush(stdin);
 		}
 	printf("Can bac 2 la:%.2f\n", sqrt(n));
@@ -17,3 +17,4 @@ int main() {
 	printf("\nDa xong");
 	return 0;
 }
+

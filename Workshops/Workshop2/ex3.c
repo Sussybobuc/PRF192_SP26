@@ -1,13 +1,14 @@
 #include<stdio.h>
 int n;
-int x = 1;
 void count() {
+	int x = 1;
 	while(x<=n) {
 		printf("%d ",x);
 		x++;
 	}
 }
 void multi() {
+	int x = 1;
 	while(x <=10) {
 		printf("\n%d x %d = %d",n,x,n*x);
 		x++;
@@ -23,3 +24,4 @@ int main() {
 	multi();
 	return 0;
 }
+

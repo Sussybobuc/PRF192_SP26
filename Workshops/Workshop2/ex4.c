@@ -10,7 +10,7 @@ int main() {
 	while(n!=0) {
 		Rev = Rev * 10 + (n%10);
 		n = n/10;
+		printf("So dao nguoc: %d", Rev);
 	}
-	printf("So dao nguoc: %d", Rev);
 	return 0;
 }

@@ -4,11 +4,12 @@ int main() {
 	int sum = 0;
 	int num;
 	while(num!=0) {
+		printf("Nhap cac so nguyen duong\n");
 		if(scanf("%d", &num) != 1 || num < 0) {
 			printf("Nhap sai!\n");
-			fflush(stdin);
+			while(getchar()!= '\n');
 		}
-		if(num>0) {
+		else {
 			sum += num;
 		}
 	}
