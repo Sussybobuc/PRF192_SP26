@@ -7,9 +7,10 @@ int main() {
 		printf("Nhap sai!\n");
 		fflush(stdin);
 	}
-	while(n!=0) {
+	do {
+		Rev = Rev * 10 + (n%10);
 		n = n/10;
-		printf("So dao nguoc: %d", Rev);
-	}
+	} while(n!=0);
+	printf("So dao nguoc: %d", Rev);
 	return 0;
 }
