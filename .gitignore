@@ -3,6 +3,10 @@
 *.out
 *.o
 *.docx
+*.pdf
+*.tmp
+
+
 # Windows system files
 desktop.ini
 Thumbs.db
