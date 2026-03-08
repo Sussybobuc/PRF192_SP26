@@ -10,14 +10,17 @@ int main() {
 	printf("INPUT:\n");
 	//INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
 	float a, b;
+	int check = 0;
 	if(scanf("%f %f", &a, &b) != 2){
-		printf("Invalid input");
-		return 0;
+		check = 1;
 	}
 
 	// Fixed Do not edit anything here.
 	printf("\nOUTPUT:\n");
-	//@STUDENT: WRITE YOUR OUTPUT HERE:
+	if(check == 1){
+		printf("Invalid input");
+		return 0;
+	}
 	float result = (float)(pow(a, 2) + pow(b, 2));
 	printf("%.2f", cbrt(result));
 	return 0;
@@ -28,3 +31,4 @@ int main() {
 	system ("pause");
 	return(0);
 }
+

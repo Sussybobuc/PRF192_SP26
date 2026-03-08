@@ -11,6 +11,7 @@ int main() {
 	int n, checked = 1, found = 0;
 	if(scanf("%d", &n) != 1 || n < 0) {
 		checked = 0;
+		n = 0;
 	}
 	int a[n];
 	if(checked != 0) {
@@ -46,7 +47,6 @@ int main() {
 
 		}
 	}
-
 
 
 	if(found == 0) {
