@@ -1,0 +1,3 @@
+ex1: Tính tổng các ước số của một số nguyên dương nhập vào.
+ex2: Tìm số lớn nhất trong 3 số nguyên dương nhập vào từ bàn phím.
+ex3: In bảng mã ASCII của các chữ cái in hoa từ A đến Z.

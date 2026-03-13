@@ -5,7 +5,7 @@
 *.docx
 *.pdf
 *.tmp
-
+*.txt
 
 # Windows system files
 desktop.ini
