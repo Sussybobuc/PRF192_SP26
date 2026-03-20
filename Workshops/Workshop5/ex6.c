@@ -3,7 +3,6 @@
 #include <string.h>
 
 int main(){
-	
 	printf("\nINPUT:\n");
 	
 	int n;

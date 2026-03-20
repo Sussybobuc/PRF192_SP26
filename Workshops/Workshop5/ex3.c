@@ -4,8 +4,6 @@
 #include <math.h>
 #include <ctype.h>
 
-
-
 char is_palindrome_string(char* s) {
 	size_t left = 0;
 	size_t right = strlen(s);

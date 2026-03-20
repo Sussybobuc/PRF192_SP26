@@ -31,7 +31,6 @@ int main() {
 	// Fixed Do not edit anything here.
 	printf("\nOUTPUT:\n");
 	//@STUDENT: WRITE YOUR OUTPUT HERE:
-
 	printf("Vowels: %d\n", vowels);
 
 	//--FIXED PART - DO NOT EDIT ANY THINGS HERE

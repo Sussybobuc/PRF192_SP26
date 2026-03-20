@@ -7,12 +7,10 @@
 int main() {
 
 	printf("\nINPUT:\n");
-
 	char *ptr = (char *)malloc(101 * sizeof(char));
 	if (fgets(ptr, 101, stdin)) {
 		*(ptr + strcspn(ptr, "\n")) = 0;
 	}
-
 
 	printf("\nOUTPUT:\n");
 	int count = 0;
@@ -28,10 +26,10 @@ int main() {
 		}
 	}
 	
-
 	printf("%d", count);
 
 	printf("\n");
 	system ("pause");
 	return(0);
 }
+	

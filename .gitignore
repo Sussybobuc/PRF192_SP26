@@ -6,7 +6,8 @@
 *.pdf
 *.tmp
 *.txt
-
+cheatsheet.c
+README.md
 # Windows system files
 desktop.ini
 Thumbs.db
