@@ -259,7 +259,7 @@ void modifyProduct(const char *filename) {
 
     int searchID;
     printf("Enter the Product ID to modify: ");
-    if (scanf("%searchID", &searchID) != 1 || searchID <= 0) {
+    if (scanf("%d", &searchID) != 1 || searchID <= 0) {
         printf("Invalid Product ID.\n");
         while (getchar() != '\n');
         fclose(file);
