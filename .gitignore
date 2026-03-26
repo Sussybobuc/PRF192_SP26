@@ -8,6 +8,11 @@
 *.txt
 cheatsheet.c
 README.md
+extra.c
+Pyramid/RightAngled_Words.c
+Pyramid/RightAngled_Num.c
+Pyramid/CenteredStar.c
+Pyramid/CenteredNum.c
 # Windows system files
 desktop.ini
 Thumbs.db
